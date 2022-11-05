@@ -1,5 +1,5 @@
 import { ProfileSection } from "./ProfileSection";
-import { LinkSection } from "./LinkSection";
+import LinkCard from "./LinkCard";
 import { SocialSection } from "./SocialSection";
 import { AppStyles } from "../AppStyles";
 import { Footer } from "./Footer";
@@ -9,7 +9,7 @@ export const DashBoard = () => {
     <>
       <AppStyles>
         <ProfileSection />
-        <LinkSection />
+        <LinkCard />
         <SocialSection />
         <Footer />
       </AppStyles>

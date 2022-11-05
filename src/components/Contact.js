@@ -79,7 +79,7 @@ export const Contact = () => {
                     id="check__box"
                   ></CheckBox>
                   <CheckBoxLabel for="check__box">
-                    You agree to providing your data to Dimeji who may contact
+                    You agree to providing your data to Isaac who may contact
                     you.
                   </CheckBoxLabel>
                 </CheckBoxStyle>
