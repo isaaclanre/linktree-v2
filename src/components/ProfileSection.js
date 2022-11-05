@@ -1,6 +1,6 @@
-import avatar from "../assets/kehinde.jpg";
-import sharedbutton from "../assets/sharedbutton.svg";
-import sharedbuttonmobile from "../assets/sharedbuttonmobile.svg";
+import avatar from "../assets/isaac_pic.jpeg";
+import sharedbutton from "../assets/share-06.svg";
+import sharedbuttonmobile from "../assets/dots-horizontal.svg";
 
 import {
   MainProfileWrapper,
@@ -20,8 +20,8 @@ export const ProfileSection = () => {
         />
       </SharedButton>
       <img src={avatar} alt="profile-img" id="profile__img" />
-      <TitleStyle id="twitter"> @KehindeDimeji </TitleStyle>
-      <p id="slack">kehinde-dimeji</p>
+      <TitleStyle id="twitter"> @isaacolanre </TitleStyle>
+      <p id="slack">isaacolanre</p>
     </MainProfileWrapper>
   );
 };

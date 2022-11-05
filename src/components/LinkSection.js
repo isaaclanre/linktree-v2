@@ -5,45 +5,45 @@ export const LinkSection = () => {
   const links = [
     {
       name: "Twitter Link",
-      url: "https://twitter.com/KehindeDimeji",
+      url: "https://twitter.com/isaacolanre",
       id: "twitter",
-      title: "Twitter link"
+      title: "Twitter link",
     },
     {
       name: "Zuri Team",
       url: "https://training.zuri.team/",
       id: "btn__zuri",
-      title: "Zuri Team"
+      title: "Zuri Team",
     },
     {
       name: "Zuri Books",
       url: "http://books.zuri.team/",
       id: "books",
-      title: "Zuri Books"
+      title: "Zuri Books",
     },
     {
       name: "Python Books",
       url: "https://books.zuri.team/",
       id: "book__python",
-      title: "Python Books"
+      title: "Python Books",
     },
     {
       name: "Background Check for Coders",
       url: "https://background.zuri.team/",
       id: "pitch",
-      title: "Background Check for Coders"
+      title: "Background Check for Coders",
     },
     {
       name: "Design Books",
       url: "https://books.zuri.team/design-rules",
       id: "book__design",
-      title: "Design Books"
+      title: "Design Books",
     },
     {
       name: "Contact",
       url: "/contact",
       id: "contact",
-      title: "Contact"
+      title: "Contact",
     },
   ];
   return (

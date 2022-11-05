@@ -11,7 +11,7 @@ export const DashBoard = () => {
         <ProfileSection />
         <LinkSection />
         <SocialSection />
-        <Footer/>
+        <Footer />
       </AppStyles>
     </>
   );
