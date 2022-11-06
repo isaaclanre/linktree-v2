@@ -11,7 +11,7 @@ import {
   FormWrapper,
   Heading,
   SupportingText,
-  NameRow,
+  Names,
   EmailStyle,
   CheckBoxStyle,
   SubWrapper,
@@ -21,9 +21,9 @@ import {
   SubWrapper2,
   Container,
   MessageStyle,
-} from "./ContactStyle";
+} from "./ContactMeStyle";
 import { Footer } from "./Footer";
-export const Contact = () => {
+export const ContactMe = () => {
   return (
     <>
       <Container>
@@ -38,7 +38,7 @@ export const Contact = () => {
                 </SupportingText>
               </HeaderStyle>
               <FormWrapper>
-                <NameRow>
+                <Names>
                   <Name>
                     <Label for="first_name">First name</Label>
                     <Input
@@ -55,7 +55,7 @@ export const Contact = () => {
                       id="last_name"
                     />
                   </Name>
-                </NameRow>
+                </Names>
                 <EmailStyle>
                   <Email for="email">Email</Email>
                   <EmailInput
@@ -72,6 +72,7 @@ export const Contact = () => {
                     id="message"
                   />
                 </MessageStyle>
+
                 <CheckBoxStyle>
                   <CheckBox
                     type="checkbox"

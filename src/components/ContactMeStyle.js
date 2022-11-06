@@ -1,9 +1,11 @@
 import styled from "styled-components";
-
 export const HeaderStyle = styled.div`
   width: 100%;
   height: 94px;
   margin-bottom: 48px;
+  @media only screen and (max-width: 600px) {
+    margin-bottom: 75px;
+  }
 `;
 export const Heading = styled.div`
   width: 100%;
@@ -44,15 +46,23 @@ export const Input = styled.input`
   border: 1px solid #d0d5dd;
   border-radius: 8px;
 `;
-export const NameRow = styled.div`
+export const Names = styled.div`
   display: flex;
   align-items: flex-start;
   padding: 0px;
   gap: 24px;
   width: 100%;
-  height: 140px;
+  padding-bottom: 30px;
   @media only screen and (max-width: 600px) {
     display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 720px;
+    height: 70px;
   }
 `;
 export const Name = styled.div`
@@ -68,12 +78,10 @@ export const EmailStyle = styled.div`
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  gap: 6px;
+  gap: 4px;
   width: 100%;
-  height: 140px;
-  @media only screen and (max-width: 600px) {
-    height: 100px;
-  }
+
+  padding-bottom: 30px;
 `;
 export const Email = styled.label`
   height: 20px;
@@ -98,17 +106,30 @@ export const EmailInput = styled.input`
   border: 1px solid #d0d5dd;
   border-radius: 8px;
 `;
-
 export const MessageStyle = styled.div`
-  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 6px;
+
+  width: 100%;
 `;
 export const MessageLabel = styled.label`
-  height: 20px;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
   color: #344054;
+
+  /* Text sm/Medium */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
 `;
 export const MessageInput = styled.textarea`
   box-sizing: border-box;
@@ -122,8 +143,14 @@ export const MessageInput = styled.textarea`
   font-size: 16px;
   line-height: 24px;
   background: #ffffff;
-  border: 1px solid #d0d5dd;
+
   border-radius: 8px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 `;
 export const CheckBoxStyle = styled.div`
   display: flex;
@@ -132,7 +159,8 @@ export const CheckBoxStyle = styled.div`
   padding: 0px;
   gap: 12px;
   width: 100%;
-  height: 70px;
+  padding-top: 24px;
+  padding-bottom: 32px;
   @media only screen and (max-width: 600px) {
     height: 100px;
   }
@@ -142,6 +170,7 @@ export const CheckBox = styled.input.attrs({ type: "checkbox" })`
   height: 20px;
   background: #ffffff;
   border: 1px solid #d0d5dd;
+
   border-radius: 6px;
 `;
 export const CheckBoxLabel = styled.label`
@@ -156,6 +185,7 @@ export const CheckBoxLabel = styled.label`
 export const Button = styled.button`
   box-sizing: border-box;
   width: 100%;
+  cursor: pointer;
   height: 48px;
   font-style: normal;
   font-weight: 600;
@@ -166,7 +196,6 @@ export const Button = styled.button`
   border: 1px solid #1570ef;
   border-radius: 8px;
 `;
-
 export const FormWrapper = styled.form`
   flex-direction: column;
   align-items: flex-start;
