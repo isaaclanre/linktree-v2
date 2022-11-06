@@ -1,23 +1,43 @@
 import styled from "styled-components";
 
+export const SocialSectionStyle = styled.div`
+  /* Auto layout */
 
-export const SocialSectionStyle = styled.div `
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
-padding: 24px 0px;
-gap: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0px;
+  gap: 24px;
 
-width: 100%;
-height: 24px;
-/* Inside auto layout */
+  width: 100%;
+  height: 24px;
 
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 1;
-@media only screen and (max-width: 600px){
-    display:inline;
-}
-`
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+`;
+
+// export const SocialSectionWrapper = styled.div`
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   padding: 24px 0px;
+//   gap: 64px;
+
+//   width: 1216px;
+//   height: 72px;
+
+//   /* Base/White */
+
+//   background: #ffffff;
+
+//   /* Inside auto layout */
+
+//   flex: none;
+//   order: 1;
+//   align-self: stretch;
+//   flex-grow: 0;
+// `;
