@@ -31,7 +31,7 @@ export const ContactMe = () => {
           <SubWrapper>
             <SubWrapper2>
               <HeaderStyle>
-                <Heading> Contact Us</Heading>
+                <Heading> Contact Me</Heading>
                 <SupportingText>
                   Hi there, contact me to ask me about anything you have in
                   mind.
