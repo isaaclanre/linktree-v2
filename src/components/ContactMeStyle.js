@@ -161,7 +161,7 @@ export const CheckBoxStyle = styled.div`
   padding-top: 24px;
   padding-bottom: 32px;
   @media only screen and (max-width: 600px) {
-    height: 60px;
+    height: 70px;
   }
 `;
 export const CheckBox = styled.input.attrs({ type: "checkbox" })`
@@ -212,10 +212,13 @@ export const SubWrapper = styled.div`
   height: 90%;
 `;
 export const SubWrapper2 = styled.div`
-  width: 90%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 10%;
+  @media only screen and (max-width: 600px) {
+    width: 80%;
+  }
 `;
 export const Container = styled.div`
   height: auto;
