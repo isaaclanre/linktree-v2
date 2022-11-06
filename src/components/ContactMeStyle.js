@@ -206,6 +206,7 @@ export const MainWrapper = styled.div`
   padding: 64px 0px 96px;
   width: 100vw;
   height: 85%;
+  align-items: center;
 `;
 export const SubWrapper = styled.div`
   width: 90%;
@@ -215,6 +216,7 @@ export const SubWrapper2 = styled.div`
   width: 60%;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 10%;
 `;
 export const Container = styled.div`
   height: auto;
