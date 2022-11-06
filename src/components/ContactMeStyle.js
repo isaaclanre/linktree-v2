@@ -54,15 +54,14 @@ export const Names = styled.div`
   width: 100%;
   padding-bottom: 30px;
   @media only screen and (max-width: 600px) {
-    display: block;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 24px;
+    padding-bottom: 25px;
 
-    width: 720px;
-    height: 70px;
+    width: 100%;
   }
 `;
 export const Name = styled.div`
