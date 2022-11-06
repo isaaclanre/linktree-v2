@@ -212,7 +212,7 @@ export const SubWrapper = styled.div`
   height: 90%;
 `;
 export const SubWrapper2 = styled.div`
-  width: 60%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 10%;
