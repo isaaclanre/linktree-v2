@@ -161,7 +161,7 @@ export const CheckBoxStyle = styled.div`
   padding-top: 24px;
   padding-bottom: 32px;
   @media only screen and (max-width: 600px) {
-    height: 50px;
+    height: 60px;
   }
 `;
 export const CheckBox = styled.input.attrs({ type: "checkbox" })`
